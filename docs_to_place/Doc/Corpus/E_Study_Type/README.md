@@ -17,20 +17,21 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 
 | Category | Count |
 |----------|-------|
-| `E1_Computational_Method_Bioinformatics` | 0 |
+| `E1_Computational_Method_Bioinformatics` | 2 |
 | `E2_Predictive_ML_Model` | 0 |
 | `E3_Clinical_Trial` | 0 |
-| `E4_Genomic_Cohort_Landscape` | 0 |
+| `E4_Genomic_Cohort_Landscape` | 1 |
 | `E5_Review` | 0 |
 | `E6_Sequencing_Platform` | 0 |
-| **Total** | **0** |
+| **Total** | **3** |
 
 ## Full Registry
 
 > One line per ingested source, organized by category. A source is not fully ingested until it appears here.
 
 ### `E1_Computational_Method_Bioinformatics`
-- _(none yet)_
+- `kim_2020_hrd_wes` — WES-based scarHRD (Sequenza→LOH/TAI/LST) HRD scoring in neoadjuvant breast cancer; WES–OncoScan concordance and pCR/near-pCR associations. **OCR of local PDF pending; body via external bibliographic record.** [reference]
+- `sztupinszki_2018_scarhrd` — scarHRD R package migrating SNP-array LOH/TAI/LST genomic scars to NGS/WES allele-specific copy-number profiles; TCGA TNBC cross-platform validation. **OCR pending.** [reference]
 
 ### `E2_Predictive_ML_Model`
 - _(none yet)_
@@ -39,7 +40,7 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 - _(none yet)_
 
 ### `E4_Genomic_Cohort_Landscape`
-- _(none yet)_
+- `kim_2025_wgs_breast_landscape` — CUBRICS WGS cohort (N=1,364): 41 IntOGen drivers, SNV/indel/SV signatures, HRD/TMB/MATH biomarkers, and a neoadjuvant TCHP HER2+ pCR substudy (n=75). **Body grounded on publisher HTML; OCR of local PDF pending.** [decision]
 
 ### `E5_Review`
 - _(none yet)_

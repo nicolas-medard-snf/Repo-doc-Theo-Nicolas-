@@ -17,35 +17,36 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 
 | Category | Count |
 |----------|-------|
-| `A1_HRD_Mutational_Signatures_DNA_Repair` | 0 |
-| `A2_Tumor_Mutational_Burden` | 0 |
-| `A3_Immune_Microenvironment` | 0 |
+| `A1_HRD_Mutational_Signatures_DNA_Repair` | 2 |
+| `A2_Tumor_Mutational_Burden` | 1 |
+| `A3_Immune_Microenvironment` | 1 |
 | `A4_Genomic_Landscape_Drivers_CNV_SV` | 0 |
-| `A5_Chromatin_Remodeling_Epigenetics` | 0 |
-| `A6_Integrated_Multiomic_Transcriptomic` | 0 |
-| **Total** | **0** |
+| `A5_Chromatin_Remodeling_Epigenetics` | 1 |
+| `A6_Integrated_Multiomic_Transcriptomic` | 1 |
+| **Total** | **6** |
 
 ## Full Registry
 
 > One line per ingested source, organized by category. A source is not fully ingested until it appears here.
 
 ### `A1_HRD_Mutational_Signatures_DNA_Repair`
-- _(none yet)_
+- `davies_2017_hrdetect` — Lasso logistic-regression HRDetect classifier integrating six WGS mutational-signature/HRD features (AUC 0.98) to detect biallelic BRCA1/BRCA2 deficiency and broader BRCAness. [decision]
+- `telli_2016_hrd_score` — Combined HRD score (LOH+TAI+LST, ≥42) and HR deficiency predict pCR/RCB 0/I to neoadjuvant platinum in TNBC, including BRCA1/2 wild-type tumors. [decision]
 
 ### `A2_Tumor_Mutational_Burden`
-- _(none yet)_
+- `tmb_immune_infiltration` — TMB × immune-infiltration biomarker axis (A2/A3 bridge). **Image-only PDF — OCR required before evidence use.** [reference]
 
 ### `A3_Immune_Microenvironment`
-- _(none yet)_
+- `integrated_genomic_immune_tme` — Integrated tumor genomics + immune microenvironment. **Scanned image PDF — authors/year/results pending OCR.** [reference]
 
 ### `A4_Genomic_Landscape_Drivers_CNV_SV`
 - _(none yet)_
 
 ### `A5_Chromatin_Remodeling_Epigenetics`
-- _(none yet)_
+- `giovani_2025_chromatin_remodeling` — 2025 review cataloging SWI/SNF, ISWI, CHD/NuRD, and INO80 remodeler subunits with tumor-suppressive vs oncogenic roles; AQ-3 gene-class background. [reference]
 
 ### `A6_Integrated_Multiomic_Transcriptomic`
-- _(none yet)_
+- `sammut_2022_multiomic_ml` — TransNEO prospective multi-omic (WES/sWGS/RNA/digital pathology) ensemble ML pCR predictor; external validation n=75 AUC 0.87; WES tier AUC 0.80. **Hub.** [decision]
 
 ## Adding sources
 

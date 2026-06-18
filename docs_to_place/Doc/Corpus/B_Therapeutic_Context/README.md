@@ -19,9 +19,9 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 |----------|-------|
 | `B1_Neoadjuvant_Chemotherapy` | 0 |
 | `B2_HER2_Targeted_Therapy` | 0 |
-| `B3_Immunotherapy_Checkpoint` | 0 |
+| `B3_Immunotherapy_Checkpoint` | 1 |
 | `B4_PARP_Platinum_DNA_Damaging` | 0 |
-| **Total** | **0** |
+| **Total** | **1** |
 
 ## Full Registry
 
@@ -34,7 +34,7 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 - _(none yet)_
 
 ### `B3_Immunotherapy_Checkpoint`
-- _(none yet)_
+- `schmid_2024_keynote522_os` — KEYNOTE-522 final OS (N=1174): neoadjuvant/adjuvant pembrolizumab + chemo vs chemo in early TNBC; pCR +13.6 pp, 5-y EFS 81.2% vs 72.2% (HR 0.65), 5-y OS 86.6% vs 81.7% (P=0.002). Regimen/endpoint anchor, not a WES biomarker study. [decision]
 
 ### `B4_PARP_Platinum_DNA_Damaging`
 - _(none yet)_

@@ -19,8 +19,8 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 |----------|-------|
 | `D1_pCR` | 0 |
 | `D2_Survival_OS_EFS_DFS` | 0 |
-| `D3_Resistance_Relapse_Clonal_Evolution` | 0 |
-| **Total** | **0** |
+| `D3_Resistance_Relapse_Clonal_Evolution` | 2 |
+| **Total** | **2** |
 
 ## Full Registry
 
@@ -33,7 +33,8 @@ Agents reason through `CROSS_REFERENCE_INDEX.md` first, then the enriched layer,
 - _(none yet)_
 
 ### `D3_Resistance_Relapse_Clonal_Evolution`
-- _(none yet)_
+- `caswelljin_2019_clonal_replacement` — Multi-region WES + spatial/branching models disentangle intra-tumor heterogeneity from clonal replacement after neoadjuvant HER2 therapy in non-pCR tumors (2/5 replacement; tHFR statistic; large pre-existing resistant subclones). [decision]
+- `powles_2020_swog_s0800_genome` — SWOG S0800 paired pre/post WES: COSMIC signature 3 (HRD) higher in pCR (median 24% vs 0%, p=0.007); E2F/G2M VAF enrichment in residual disease after neoadjuvant chemo (n=29 pre, n=9 paired). **Body grounded on DOI-matched text; OCR of local PDF pending.** [decision]
 
 ## Adding sources
 
